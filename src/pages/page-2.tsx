@@ -1,12 +1,16 @@
-import * as React from 'react'
-import Link from 'gatsby-link'
+import * as React from "react";
+
+import { Heading, Text } from "rebass";
+
+import StaticLink from "../components/StaticLink";
+import Layout from "../components/Layout";
 
 const SecondPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
-)
+  <Layout>
+    <Heading>Hi from the second page</Heading>
+    <Text>Welcome to page 2</Text>
+    <StaticLink to="/">Go back to the home page</StaticLink>
+  </Layout>
+);
 
-export default SecondPage
+export default SecondPage;

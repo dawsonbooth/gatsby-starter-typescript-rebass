@@ -1,10 +1,10 @@
 import * as React from "react";
-import { Flex, Box, Link, Button, Text } from "rebass";
+import { Flex, Button, Text } from "rebass";
 import { useColorMode } from "theme-ui";
 
 import StaticLink from "./StaticLink";
 
-const modes = ["lite", "dark", "gray", "hack", "pink"];
+const modes = ["lite", "dark", "atlassian", "eva", "gray", "hack", "pink"];
 
 const Dot = () => (
   <svg

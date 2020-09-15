@@ -1,7 +1,7 @@
 import preset from "@rebass/preset"; // FIXME
 import { merge } from "theme-ui";
 
-export default merge(preset, { // TODO: Custom themes
+export default merge(preset, {
   initialColorModeName: "lite",
   colors: {
     text: "#000",
@@ -22,6 +22,26 @@ export default merge(preset, { // TODO: Custom themes
         muted: "#111",
         gray: "#999",
         lightgray: "#444",
+      },
+      atlassian: {
+        text: "#172B4D",
+        background: "#FFFFFF",
+        primary: "#0052CC",
+        secondary: "#00B8D9",
+        accent: "#6554C0",
+        muted: "#091E42",
+        gray: "#5E6C84",
+        lightgray: "#B3BAC5",
+      },
+      eva: {
+        text: "#FFFFFF",
+        background: "#222B45",
+        primary: "#3366FF",
+        secondary: "#37A0FC",
+        accent: "#6CD824",
+        muted: "#091A7A",
+        gray: "#CDD6E3",
+        lightgray: "#EDF1F7",
       },
       gray: {
         text: "#fff",

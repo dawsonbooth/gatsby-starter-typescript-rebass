@@ -2,7 +2,7 @@ import * as React from "react";
 import { Flex, Button, Text } from "rebass";
 import { useColorMode } from "theme-ui";
 
-import StaticLink from "./StaticLink";
+import Link from "./Link";
 
 const modes = ["lite", "dark", "atlassian", "eva", "gray", "hack", "pink"];
 
@@ -58,12 +58,12 @@ export default () => {
         </Text>
       </Flex>
       <Flex flex={1} justifyContent="center">
-        <StaticLink variant="nav" to="/">
+        <Link variant="nav" to="/">
           Home
-        </StaticLink>
-        <StaticLink variant="nav" to="/page-2/">
+        </Link>
+        <Link variant="nav" to="/page-2/">
           Page 2
-        </StaticLink>
+        </Link>
       </Flex>
       <Flex flex={1} justifyContent="center">
         <Button

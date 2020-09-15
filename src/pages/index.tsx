@@ -2,7 +2,7 @@ import * as React from "react";
 
 import { Heading, Text } from "rebass";
 
-import StaticLink from "../components/StaticLink";
+import Link from "../components/Link";
 import Layout from "../components/Layout";
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
@@ -24,7 +24,7 @@ export default function ({ data }: IndexPageProps) {
       <Text>
         Welcome to my new <strong>{data.site.siteMetadata.title}</strong>.
       </Text>
-      <StaticLink to="/page-2/">Go to page 2</StaticLink>
+      <Link to="/page-2/">Go to page 2</Link>
     </Layout>
   );
 }

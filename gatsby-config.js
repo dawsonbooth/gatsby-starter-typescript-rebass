@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/gatsby-starter-typescript-rebass`,
   siteMetadata: {
     title: `Gatsby Starter with TypeScript and Rebass`,
   },

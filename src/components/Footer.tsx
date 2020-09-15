@@ -6,7 +6,7 @@ import Link from "./Link";
 export default () => {
   return (
     <Flex as={"footer"} px={2} alignItems="center" color="background" bg="text">
-      <Text p={2}>&#169; Copyright 2020 Dawson Booth</Text>
+      <Text p={2}>&#169; Copyright 2020 Name Here</Text>
       <Box mx="auto" />
       <Text>
         Made with&nbsp;

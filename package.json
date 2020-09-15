@@ -1,10 +1,10 @@
 {
-  "name": "dawsonbooth.github.io",
-  "description": "Personal Website",
+  "name": "gatsby-starter-typescript-rebass",
+  "description": "Gatsby Starter with TypeScript and Rebass",
   "version": "1.0.0",
   "author": "Dawson Booth <github@dawsonbooth.com>",
   "keywords": [
-    "gatsby, typescript"
+    "gatsby", "typescript", "rebass"
   ],
   "license": "MIT",
   "main": "n/a",

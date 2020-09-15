@@ -54,7 +54,7 @@ export default () => {
     >
       <Flex flex={1} justifyContent="center">
         <Text p={2} fontWeight="bold" mr="auto">
-          Dawson Booth
+          Title Here
         </Text>
       </Flex>
       <Flex flex={1} justifyContent="center">
